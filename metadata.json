@@ -1,0 +1,6 @@
+{
+  "name": "Telemetry Void SCADA",
+  "description": "Sistema de Monitoreo Avanzado de Producción y Telemetría en Tiempo Real para campos de hidrocarburos",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
