@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENA - CIES | Monitoreo SCADA Separador de Prueba SPS-01</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- 1. BARRA LATERAL IZQUIERDA (SIDEBAR) -->
+  <aside class="sidebar">
+    <div class="sidebar-menu">
+      <button class="sidebar-btn" data-module="dashboard">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+        <span>Dashboard</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="pozos">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4v16"/></svg>
+        <span>Pozos (Wells)</span>
+      </button>
+
+      <button class="sidebar-btn active" data-module="separador">
+        <svg viewBox="0 0 24 24"><path d="M4 5h16l-6 8v6l-4-2v-4L4 5z"/></svg>
+        <span>Separador</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="tanques">
+        <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/></svg>
+        <span>Tanques</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="piscina">
+        <svg viewBox="0 0 24 24"><path d="M2 7c2-1 4-1 6 0s4 1 6 0 4-1 6 0M2 12c2-1 4-1 6 0s4 1 6 0 4-1 6 0M2 17c2-1 4-1 6 0s4 1 6 0 4-1 6 0"/></svg>
+        <span>Piscina</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="tablero">
+        <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 9h16M12 13v4"/></svg>
+        <span>Tablero Eléctrico</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="bombas">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="12" r="7"/><path d="M18 12h4M21 9v6"/></svg>
+        <span>Bombas</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="alertas">
+        <svg viewBox="0 0 24 24"><path d="M12 3l9 17H3L12 3zM12 9v5M12 17v.5"/></svg>
+        <span>Alertas</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="reportes">
+        <svg viewBox="0 0 24 24"><path d="M5 3h14v18H5zM9 8h6M9 12h6M9 16h4"/></svg>
+        <span>Reportes</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="usuarios">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a6 6 0 0 1 12 0v2"/></svg>
+        <span>Usuarios</span>
+      </button>
+
+      <button class="sidebar-btn" data-module="configuracion">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>Configuración</span>
+      </button>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="dev-title">Desarrollado por:</div>
+      <div class="dev-brand">SENA - CIES</div>
+    </div>
+  </aside>
+
+  <!-- 2. CONTENIDO PRINCIPAL (DASHBOARD) -->
+  <main class="main-wrapper">
+
+    <!-- Header Panel Card -->
+    <header class="header-card">
+      <div class="header-title-box">
+        <h1 class="header-title">Monitoreo Separador de Prueba — SPS-01</h1>
+        <div class="microservice-pill-box">
+          <span class="service-chip online" title="Telemetry Service: Port 8001"><span class="dot"></span>Telemetry :8001</span>
+          <span class="service-chip online" title="Production Service: Port 8002"><span class="dot"></span>Production :8002</span>
+          <span class="service-chip online" title="Alerts Service: Port 8003"><span class="dot"></span>Alerts :8003</span>
+          <span class="service-chip online" title="Assets Service: Port 8004"><span class="dot"></span>Assets :8004</span>
+        </div>
+      </div>
+
+      <div class="status-badge">
+        <span class="status-beacon"></span>
+        <span>OPERATIVO</span>
+      </div>
+    </header>
+
+    <!-- Fila de Tarjetas KPI -->
+    <section class="kpi-row">
+      <!-- 1. Presión -->
+      <div class="kpi-card">
+        <span class="kpi-title">Presión</span>
+        <div class="kpi-main-box">
+          <span class="kpi-value" id="kpiPressureVal" style="color: var(--accent-green);">85 psi</span>
+        </div>
+        <span class="kpi-subtitle" id="kpiPressureSub">Rango: 50-120 psi</span>
+      </div>
+
+      <!-- 2. Nivel de Fluido -->
+      <div class="kpi-card">
+        <span class="kpi-title">Nivel de Fluido</span>
+        <div class="kpi-main-box">
+          <span class="kpi-value" id="kpiLevelVal" style="color: var(--text-primary);">62%</span>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" id="kpiLevelBar" style="width: 62%;"></div>
+          </div>
+        </div>
+        <span class="kpi-subtitle" id="kpiLevelSub">Estable — 1.2 m</span>
+      </div>
+
+      <!-- 3. % Aceite (Oil) -->
+      <div class="kpi-card">
+        <span class="kpi-title">% Aceite (Oil)</span>
+        <div class="kpi-main-box">
+          <span class="kpi-value" id="kpiOilVal" style="color: var(--accent-cyan);">68.5%</span>
+          <div class="circular-gauge">
+            <svg viewBox="0 0 24 24">
+              <circle class="bg-circle" cx="12" cy="12" r="10"/>
+              <circle class="val-circle" id="oilCircle" cx="12" cy="12" r="10" stroke="var(--accent-cyan)"/>
+            </svg>
+          </div>
+        </div>
+        <span class="kpi-subtitle" id="kpiOilSub">Calidad: Excelente</span>
+      </div>
+
+      <!-- 4. % Agua (Water) -->
+      <div class="kpi-card">
+        <span class="kpi-title">% Agua (Water)</span>
+        <div class="kpi-main-box">
+          <span class="kpi-value" id="kpiWaterVal" style="color: var(--accent-orange);">28.3%</span>
+          <div class="circular-gauge">
+            <svg viewBox="0 0 24 24">
+              <circle class="bg-circle" cx="12" cy="12" r="10"/>
+              <circle class="val-circle" id="waterCircle" cx="12" cy="12" r="10" stroke="var(--accent-orange)"/>
+            </svg>
+          </div>
+        </div>
+        <span class="kpi-subtitle" id="kpiWaterSub">Retorno en rango base</span>
+      </div>
+
+      <!-- 5. Caudal Gas -->
+      <div class="kpi-card">
+        <span class="kpi-title">Caudal Gas</span>
+        <div class="kpi-main-box">
+          <span class="kpi-value" id="kpiGasVal" style="color: var(--accent-teal);">125 MSCFD</span>
+        </div>
+        <span class="kpi-subtitle" id="kpiGasSub">Normal — Línea de venteo</span>
+      </div>
+    </section>
+
+    <!-- Grilla Central: Esquema P&ID + Columna Derecha -->
+    <section class="workspace-grid">
+      <!-- Izquierda: Esquema P&ID del Separador -->
+      <div class="schematic-card">
+        <div class="schematic-header">
+          <h2 class="schematic-title">Representación Esquemática del Separador (P&ID Live)</h2>
+        </div>
+
+        <div class="schematic-canvas-box">
+          <canvas id="pidCanvas"></canvas>
+        </div>
+
+        <!-- Botones de Interacción / Simulación Industrial -->
+        <div class="schematic-controls">
+          <button class="sim-btn" onclick="simulateOverpressure()">Simular Alerta Presión</button>
+          <button class="sim-btn" onclick="resetSensors()">Restablecer Nominal</button>
+        </div>
+      </div>
+
+      <!-- Derecha: Balance de Producción y Alertas -->
+      <div class="right-col">
+        <!-- Balance de Producción (24h) -->
+        <div class="card-panel">
+          <h3 class="card-panel-title">Balance de Producción (24h)</h3>
+          <div class="balance-rows">
+            <div class="balance-row">
+              <span class="balance-key">Crudo Neto:</span>
+              <span class="balance-val" id="prodNetCrude" style="color: var(--accent-cyan);">1,680 bbls</span>
+            </div>
+            <div class="balance-row">
+              <span class="balance-key">Agua Total:</span>
+              <span class="balance-val" id="prodTotalWater" style="color: var(--accent-orange);">690 bbls</span>
+            </div>
+            <div class="balance-row">
+              <span class="balance-key">Gas Venteado:</span>
+              <span class="balance-val" id="prodVentedGas" style="color: var(--accent-teal);">0.12 MMSCF</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alertas del Separador -->
+        <div class="card-panel">
+          <h3 class="card-panel-title">Alertas del Separador</h3>
+          <div class="alerts-list" id="alertsList">
+            <div class="alert-pill NORMAL">
+              <span class="alert-dot"></span>
+              <span>Presión regulada — Presostato OK</span>
+            </div>
+            <div class="alert-pill WARNING">
+              <span class="alert-dot"></span>
+              <span>Válvula de diluente abierta (15%)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/static/js/scada.js"></script>
+</body>
+</html>

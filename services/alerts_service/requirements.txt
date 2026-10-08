@@ -1,0 +1,2 @@
+# Alerts Service Dependencies
+# Uses pure standard library with zero mandatory external dependencies

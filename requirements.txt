@@ -1,0 +1,6 @@
+# Dependencias generales del proyecto SCADA SPS-01
+# Los microservicios estan implementados de forma nativa con Python Standard Library (sin dependencias forzadas).
+# Dependencias opcionales para extension o desarrollo:
+requests>=2.31.0
+fastapi>=0.109.0
+uvicorn>=0.27.0
