@@ -1,0 +1,50 @@
+{
+    "admin": {
+        "pass": "$2y$10$qLMP0UDfe.zohbZPfrzDkeg6gYFDO5CaTog0ksKbVaoUicXldiav.",
+        "rol": "ADMIN",
+        "nombre": "Ing. Rodrigo Valenzuela",
+        "cargo": "Administrador del Sistema SCADA",
+        "email": "r.valenzuela@scada-cies.edu.co",
+        "fecha": "2026-01-15"
+    },
+    "supervisor": {
+        "pass": "$2y$10$9gTie.T0Vc.2f9lgsw5a3.vh8s2869ghyC81fXm49M4Wf1GKezmmS",
+        "rol": "SUPERVISOR",
+        "nombre": "Ing. Diana Marcela Morales",
+        "cargo": "Supervisora de Planta \/ Personal Clave",
+        "email": "d.morales@scada-cies.edu.co",
+        "fecha": "2026-02-10"
+    },
+    "empleado": {
+        "pass": "$2y$10$n5u.zlneK..\/Az\/RpARAIOcmEQbkPWXXpLDzuiJKVogqkgBZycW8.",
+        "rol": "EMPLEADO",
+        "nombre": "Juan Carlos Pérez",
+        "cargo": "Operario \/ Empleado General",
+        "email": "j.perez@scada-cies.edu.co",
+        "fecha": "2026-03-01"
+    },
+    "operador": {
+        "pass": "$2y$10$LjjZIkM9InRWzIxqthFHKu2y5g\/9owBFqMnazIHJm4GjEm5JDzKJ.",
+        "rol": "EMPLEADO",
+        "nombre": "Carlos Mendoza",
+        "cargo": "Operador de Turno General",
+        "email": "c.mendoza@scada-cies.edu.co",
+        "fecha": "2026-03-12"
+    },
+    "auditor": {
+        "pass": "$2y$10$uO.VkKN5Wjuqa5J6k5hmgODZtsBzZcmLRKnoKFHL2q3CtR1m3y1Vi",
+        "rol": "AUDITOR",
+        "nombre": "Dra. Elena Peñaloza",
+        "cargo": "Auditora de Procesos Industriales",
+        "email": "e.penaloza@scada-cies.edu.co",
+        "fecha": "2026-04-05"
+    },
+    "ing_carlos": {
+        "pass": "$2y$10$fHRGWpN8aJA.cYP0AjvrTeRB7VT5qk.ihwExRpUTeUgxUb.PVZyA6",
+        "rol": "SUPERVISOR",
+        "nombre": "Ing. Carlos Santana",
+        "cargo": "Supervisor de Pozo",
+        "email": "carlos@scada.com",
+        "fecha": "2026-10-15"
+    }
+}

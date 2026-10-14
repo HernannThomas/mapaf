@@ -1,0 +1,26 @@
+[
+    {
+        "id": "TXN-SCADA-536B74A",
+        "fecha": "2026-10-15 00:01:57",
+        "plan_nombre": "Plan Industrial Supervisor",
+        "monto": 89,
+        "moneda": "USD",
+        "metodo": "Tarjeta de Crédito (Visa 4242)",
+        "titular": "Ing. Rodrigo Valenzuela",
+        "estado": "APROBADA",
+        "autorizacion": "AUTH-841498",
+        "usuario": "admin"
+    },
+    {
+        "id": "TXN-SCADA-94821",
+        "fecha": "2026-10-12 14:32:10",
+        "plan_nombre": "Plan Industrial Supervisor",
+        "monto": 89,
+        "moneda": "USD",
+        "metodo": "Tarjeta de Crédito (Visa •••• 4242)",
+        "titular": "Ing. Rodrigo Valenzuela",
+        "estado": "APROBADA",
+        "autorizacion": "AUTH-892415",
+        "usuario": "admin"
+    }
+]

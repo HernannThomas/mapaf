@@ -1,0 +1,20 @@
+codigo,nombre,parametro,valor,unidad,min,max,criticidad,ubicacion
+PZ-LIZ-104,Cabeza Pozo Lizama 104,Presión en Cabeza,542.4,PSI,400,650,CRITICO,Campo Lizama
+PZ-LIZ-104,Cabeza Pozo Lizama 104,Temperatura Operacional,68.2,°C,45,85,CRITICO,Campo Lizama
+PZ-LIZ-104,Cabeza Pozo Lizama 104,Caudal General Extracción,1240.5,BPD,800,1600,GENERAL,Campo Lizama
+PZ-LIZ-104,Cabeza Pozo Lizama 104,Estado Conexión Enlace,100,%,90,100,GENERAL,Campo Lizama
+VFD-MOT-201,Variador Frecuencia ESP #2,Frecuencia Inversor Potencia,58.4,Hz,40,65,CRITICO,Campo Lizama
+VFD-MOT-201,Variador Frecuencia ESP #2,Vibración Radial Eje,1.4,mm/s,0.5,3.0,CRITICO,Campo Lizama
+VFD-MOT-201,Variador Frecuencia ESP #2,Caudal Bombeo General,1180.0,BPD,700,1500,GENERAL,Campo Lizama
+PZ-RUB-018,Cabeza Pozo Rubiales Pad 18,Presión Manifold Alta,894.2,PSI,600,850,CRITICO,Campo Rubiales
+PZ-RUB-018,Cabeza Pozo Rubiales Pad 18,Temperatura Fondo Pozo,79.1,°C,50,90,CRITICO,Campo Rubiales
+PZ-RUB-018,Cabeza Pozo Rubiales Pad 18,Caudal Producción Crudo,2150.0,BPD,1200,3000,GENERAL,Campo Rubiales
+SEP-TRI-03,Separador Trifásico Central,Presión de Gas Separador,148.6,PSI,100,180,CRITICO,Campo Rubiales
+SEP-TRI-03,Separador Trifásico Central,Nivel Interfase Agua/Crudo,58.5,%,30,75,GENERAL,Campo Rubiales
+SEP-TRI-03,Separador Trifásico Central,Caudal Total Tratado,8420.0,BPD,5000,10000,GENERAL,Campo Rubiales
+TK-ALM-01,Tanque Fiscal Diluido TK-101,Nivel de Llenado Radar,72.8,%,15,90,GENERAL,Campo Cusiana
+TK-ALM-01,Tanque Fiscal Diluido TK-101,Caudal Despacho Troncal,3200.0,BPD,1000,4500,GENERAL,Campo Cusiana
+TK-ALM-01,Tanque Fiscal Diluido TK-101,Presión Alivio Venteo,14.7,PSI,12,20,CRITICO,Campo Cusiana
+VFD-MOT-305,Variador Tracción Compresor,Temperatura Célula IGBT,89.2,°C,45,85,CRITICO,Campo Casabe
+VFD-MOT-305,Variador Tracción Compresor,Vibración Cojinete Alta,4.8,mm/s,0.5,4.2,CRITICO,Campo Casabe
+VFD-MOT-305,Variador Tracción Compresor,Caudal Gas Comprimido,620.0,KSCFD,300,900,GENERAL,Campo Casabe

@@ -1,0 +1,211 @@
+[
+    {
+        "codigo": "PZ-LIZ-104",
+        "nombre": "Cabeza de Pozo Lizama 104",
+        "parametro": "Presión en Cabeza",
+        "valor": 542.4,
+        "unidad": "PSI",
+        "min": 400,
+        "max": 650,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "PZ-LIZ-104",
+        "nombre": "Cabeza de Pozo Lizama 104",
+        "parametro": "Temperatura Operacional",
+        "valor": 68.2,
+        "unidad": "°C",
+        "min": 45,
+        "max": 85,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "PZ-LIZ-104",
+        "nombre": "Cabeza de Pozo Lizama 104",
+        "parametro": "Caudal de Extracción",
+        "valor": 1240.5,
+        "unidad": "BPD",
+        "min": 800,
+        "max": 1600,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "PZ-LIZ-104",
+        "nombre": "Cabeza de Pozo Lizama 104",
+        "parametro": "Estado de Conexión",
+        "valor": 100,
+        "unidad": "%",
+        "min": 90,
+        "max": 100,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "VFD-MOT-201",
+        "nombre": "Variador Frecuencia Bomba ESP #2",
+        "parametro": "Frecuencia Inversor Potencia",
+        "valor": 58.4,
+        "unidad": "Hz",
+        "min": 40,
+        "max": 65,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "VFD-MOT-201",
+        "nombre": "Variador Frecuencia Bomba ESP #2",
+        "parametro": "Vibración Radial Eje",
+        "valor": 1.4,
+        "unidad": "mm\/s",
+        "min": 0.5,
+        "max": 3,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "VFD-MOT-201",
+        "nombre": "Variador Frecuencia Bomba ESP #2",
+        "parametro": "Caudal Bombeo General",
+        "valor": 1180,
+        "unidad": "BPD",
+        "min": 700,
+        "max": 1500,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Lizama"
+    },
+    {
+        "codigo": "PZ-RUB-018",
+        "nombre": "Cabeza de Pozo Rubiales Pad 18",
+        "parametro": "Presión Manifold Alta",
+        "valor": 894.2,
+        "unidad": "PSI",
+        "min": 600,
+        "max": 850,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Rubiales"
+    },
+    {
+        "codigo": "PZ-RUB-018",
+        "nombre": "Cabeza de Pozo Rubiales Pad 18",
+        "parametro": "Temperatura de Fondo",
+        "valor": 79.1,
+        "unidad": "°C",
+        "min": 50,
+        "max": 90,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Rubiales"
+    },
+    {
+        "codigo": "PZ-RUB-018",
+        "nombre": "Cabeza de Pozo Rubiales Pad 18",
+        "parametro": "Caudal de Producción",
+        "valor": 2150,
+        "unidad": "BPD",
+        "min": 1200,
+        "max": 3000,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Rubiales"
+    },
+    {
+        "codigo": "SEP-TRI-03",
+        "nombre": "Separador Trifásico Batería Central",
+        "parametro": "Presión de Separación Gas",
+        "valor": 148.6,
+        "unidad": "PSI",
+        "min": 100,
+        "max": 180,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Rubiales"
+    },
+    {
+        "codigo": "SEP-TRI-03",
+        "nombre": "Separador Trifásico Batería Central",
+        "parametro": "Nivel Interfase Agua\/Crudo",
+        "valor": 58.5,
+        "unidad": "%",
+        "min": 30,
+        "max": 75,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Rubiales"
+    },
+    {
+        "codigo": "SEP-TRI-03",
+        "nombre": "Separador Trifásico Batería Central",
+        "parametro": "Caudal Total Tratado",
+        "valor": 8420,
+        "unidad": "BPD",
+        "min": 5000,
+        "max": 10000,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Rubiales"
+    },
+    {
+        "codigo": "TK-ALM-01",
+        "nombre": "Tanque Fiscal Crudo Diluido TK-101",
+        "parametro": "Nivel de Llenado Radar",
+        "valor": 72.8,
+        "unidad": "%",
+        "min": 15,
+        "max": 90,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Cusiana"
+    },
+    {
+        "codigo": "TK-ALM-01",
+        "nombre": "Tanque Fiscal Crudo Diluido TK-101",
+        "parametro": "Caudal de Despacho",
+        "valor": 3200,
+        "unidad": "BPD",
+        "min": 1000,
+        "max": 4500,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Cusiana"
+    },
+    {
+        "codigo": "TK-ALM-01",
+        "nombre": "Tanque Fiscal Crudo Diluido TK-101",
+        "parametro": "Presión de Alivio Venteo",
+        "valor": 14.7,
+        "unidad": "PSI",
+        "min": 12,
+        "max": 20,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Cusiana"
+    },
+    {
+        "codigo": "VFD-MOT-305",
+        "nombre": "Variador Tracción Compresor Gas",
+        "parametro": "Temperatura Célula IGBT",
+        "valor": 89.2,
+        "unidad": "°C",
+        "min": 45,
+        "max": 85,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Casabe"
+    },
+    {
+        "codigo": "VFD-MOT-305",
+        "nombre": "Variador Tracción Compresor Gas",
+        "parametro": "Vibración Cojinete Alta",
+        "valor": 4.8,
+        "unidad": "mm\/s",
+        "min": 0.5,
+        "max": 4.2,
+        "criticidad": "CRITICO",
+        "ubicacion": "Campo Casabe"
+    },
+    {
+        "codigo": "VFD-MOT-305",
+        "nombre": "Variador Tracción Compresor Gas",
+        "parametro": "Caudal de Gas Comprimido",
+        "valor": 620,
+        "unidad": "KSCFD",
+        "min": 300,
+        "max": 900,
+        "criticidad": "GENERAL",
+        "ubicacion": "Campo Casabe"
+    }
+]
